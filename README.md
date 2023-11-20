@@ -1,6 +1,6 @@
 # TYPESCRIPT FRONTEND-BACKEND PROJECT
 
-This is a simple project demonstrating communication between a front-end and a back-end using pure TypeScript.
+This is a simple project demonstrating communication between a front-end and a back-end using TypeScript.
 
 ## PROJECT STRUCTURE
 
