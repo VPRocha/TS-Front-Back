@@ -7,6 +7,8 @@ import user from '../routes/user';
 
 const app = express();
 
+app.use(express.json());
+
 app.use(cors({
   origin:['http://localhost:8080']
 }));
@@ -15,5 +17,5 @@ app.use('/', home)
 app.use('/user', user)
 
 app.listen(3000, function () {
-  console.log('Example app listening on port localhost:3000!')
+  console.log('App listening on port localhost:3000!')
 })

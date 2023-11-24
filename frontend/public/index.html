@@ -9,7 +9,25 @@
 <body>
   <h2 id="title">Back&Front</h2>
 
-  <button id="create">Create</button>
+  <form action="">
+    <div class="container-name">
+      <input type="text" id="userName" placeholder="Name">
+      <span id="userNameError" class="error-message"></span>
+    </div>
+  
+    <div class="container-email">
+      <input type="email" id="userEmail" placeholder="E-mail">
+      <span id="userEmailError" class="error-message"></span>
+    </div>
+
+    <div class="container-password">
+      <input type="password" id="userPassword" placeholder="Password">
+      <span id="userPasswordError" class="error-message"></span>
+    </div>
+
+    <button id="create">Create</button>
+  </form>
+
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script src="dist/index.js"></script>
 
